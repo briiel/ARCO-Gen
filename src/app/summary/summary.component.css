@@ -1,0 +1,81 @@
+
+
+body{
+    background-image: url(/assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #faf9f7;
+    overflow: auto;
+}
+
+@media (min-width:1000px){
+.textTitle {
+    color: #4F4A45; /* Specify the desired color */ 
+    margin-left: 20vh;
+    margin-top: 70px;
+    margin-bottom: 30px; /* Adjust margin as needed */
+    font-family: "Poppins", sans-serif;
+    font-weight: 1000;
+    font-size: 50px; /* Decrease font size for smaller screens */
+    }
+}
+
+.month {
+    margin-top: 5px; /* Adjust the top margin as needed */
+    margin:-15px;
+    padding-left: 15px; /* Adjust the left padding as needed */
+    padding-right: 15px; /* Adjust the right padding as needed */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 750;
+    color: #ED7D31;
+    font-style: normal;
+    letter-spacing: 3px;
+}
+
+.cta{
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 200px;
+
+}
+.cta a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+}
+
+.cta a{
+    color: #070707;
+    margin-bottom: 20px; 
+    padding: 0; 
+}
+.cta li{
+    margin: 20px;
+}
+
+@media (min-width: 1000px){    
+    .cta h1{
+        font-size: 24px;
+    }
+}
+
+.summary-container{
+    text-align: left;
+    width: 100%; 
+    padding-right: 15px; 
+    padding-left: 15px; 
+    margin-right: auto; 
+    margin-left: auto; 
+}
+.summary-container h1{
+    text-align: left;
+    font-size: 2rem;
+    margin-left: 130px;
+}

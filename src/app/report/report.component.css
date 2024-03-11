@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(232, 227, 227);
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+.nav {
+    text-align: center;
+    padding: 20px;
+}
+
+.field {
+    border: 2px solid;
+    border-radius: 10px;
+    background-position: center;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.field img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.semiTitle {
+    text-decoration: underline;
+}
+
+.text {
+    padding: 0 20px;
+}
+
+.arrowDown,
+.playButton {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .field {
+        margin: 20px auto;
+        max-width: 600px;
+    }
+}
